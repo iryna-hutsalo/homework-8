@@ -7,7 +7,7 @@
   margin-bottom: 20px;
   display: block;
 
-   @media screen and (min-width: 480px) and (max-width: 1199px) {
+   @media screen and (max-width: 1199px) {
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -36,7 +36,7 @@
 }
 
 .footer__contacts-list {
-  @media screen and (min-width: 480px) and (max-width: 1199px){
+  @media screen and (max-width: 1199px){
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -77,7 +77,7 @@
 .footer-mailing {
  margin-left: auto;
 
- @media screen and (min-width: 480px) and (max-width: 1199px) {
+ @media screen and (max-width: 1199px) {
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -101,16 +101,20 @@
   border-radius: 4px;
   background-color: transparent;
   padding: 15px 16px;
-  margin-right: 12px;
+  // margin-right: 12px;
   color: var(--primary-white-tx-bg-color);
 
   @media screen and (min-width: 480px) and (max-width: 1199px) {
     width: 450px;
+  }
+
+  @media screen and (max-width: 1199px) {
     margin-bottom: 20px;
   }
 
   @media screen and (min-width: 1200px) {
     width: 358px;
+    margin-right: 12px;
   }
 }
 
