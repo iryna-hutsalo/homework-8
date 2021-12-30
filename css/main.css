@@ -158,7 +158,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 1199px) {
   .activity-section__title,
   .team-section__pre-title {
     font-size: 28px;
@@ -180,7 +180,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 1199px) {
   .clients__title {
     font-size: 38px;
     line-height: 1.18;
@@ -368,14 +368,14 @@ body {
   background-size: cover;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .hero-overlay {
     max-width: 480px;
     height: 400px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero-overlay {
     max-width: 768px;
     height: 400px;
@@ -393,14 +393,14 @@ body {
   text-align: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .hero {
     padding-top: 118px;
     padding-bottom: 118px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
     padding-top: 118px;
     padding-bottom: 118px;
