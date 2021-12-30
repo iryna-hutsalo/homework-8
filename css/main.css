@@ -507,6 +507,7 @@ body {
 }
 
 .benefits__icon-benefit {
+  height: 120px;
   margin-bottom: 30px;
   align-items: center;
   display: flex;
@@ -518,21 +519,18 @@ body {
 @media screen and (min-width: 480px) {
   .benefits__icon-benefit {
     width: 450px;
-    height: 120px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .benefits__icon-benefit {
     width: 354px;
-    height: 120px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .benefits__icon-benefit {
     width: 270px;
-    height: 120px;
   }
 }
 

@@ -73,7 +73,7 @@
 
 .benefits__icon-benefit {
   // width: 270px;
-  // height: 120px;
+  height: 120px;
   margin-bottom: 30px;
   align-items: center;
   display: flex;
@@ -83,17 +83,14 @@
 
   @media screen and (min-width: 480px) {
       width: 450px;
-      height: 120px;
       }
 
       @media screen and (min-width: 768px) {
       width: 354px;
-      height: 120px;
     }
 
     @media screen and (min-width: 1200px) {
        width: 270px;
-       height: 120px;
     }
 }
 
