@@ -1,0 +1,22 @@
+@import './utils/variables';
+@import './utils/reset';
+@import './utils/common';
+@import './utils/hidden';
+@import './utils/container';
+@import './utils/title';
+
+
+@import './components/header';
+@import './components/logo';
+@import './components/hero';
+@import './components/benefits';
+@import './components/activity';
+@import './components/team';
+@import './components/clients';
+@import './components/footer';
+@import './components/backdrop-modal';
+@import './components/modal-form';
+@import './components/social-list';
+
+@import './components/portfolio-filters';
+@import './components/portfolio-cards';

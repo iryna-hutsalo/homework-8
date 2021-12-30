@@ -1,0 +1,81 @@
+.hero__title {
+    // width: 696px;
+    display: block;
+    margin: auto;
+
+    margin-bottom: 30px;
+    color: var(--primary-white-tx-bg-color);
+
+    font-weight: 900;
+    // font-size: 44px;
+    // line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+
+    @media screen and (min-width: 480px) {
+      width: 360px;
+  font-size: 26px;
+  line-height: 1.62;
+      }
+
+    @media screen and (min-width: 1200px) {
+        width: 696px;
+        font-size: 44px;
+      line-height: 1.36;
+      }
+    }
+
+    .benefits__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.benefits__pre-title,
+.footer__title {
+  display: none;
+}
+
+ .activity-section__title,
+  .team-section__pre-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+    
+.clients__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.footer-mailing__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-tx-bg-color);
+  margin-bottom: 20px;
+}
+
+.work-set__work-title {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}

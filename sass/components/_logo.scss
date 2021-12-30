@@ -1,0 +1,38 @@
+.header__logo-link,
+.footer__logo-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: inline-block;
+  margin-right: 93px;
+  color: var(--accent-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.footer .footer__logo-link {
+  padding: 0;
+}
+
+.logo-footer {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.footer .logo-link {
+  margin-right: 0;
+}
+
+
+
+.header__logo-text {
+  color: var(--primary-text-color);
+  font-size: 26px;
+}
+
+.footer--white-logo-text {
+  color: var(--primary-white-tx-bg-color);
+  font-size: 26px;
+}
