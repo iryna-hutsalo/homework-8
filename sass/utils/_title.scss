@@ -33,6 +33,10 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+        text-align: center;
+    }
 }
 
 .benefits__pre-title,
@@ -43,21 +47,48 @@
  .activity-section__title,
   .team-section__pre-title {
     text-align: center;
-    margin-bottom: 50px;
+    // margin-bottom: 50px;
     font-weight: 700;
-    font-size: 36px;
+    // font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
   }
+
+  .activity-section__title,
+  .team-section__pre-title {
+    @media screen and (min-width: 480px) {
+  font-size: 28px;
+  margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+  font-size: 36px;
+  margin-bottom: 50px;
+    }
+  }
+
+  
     
 .clients__title {
   text-align: center;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  // font-size: 36px;
+  // line-height: 1.16;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
+
+  @media screen and (min-width: 480px) {
+    font-size: 38px;
+  line-height: 1.18;
+  margin-bottom: 30px;
+  }
+
+   @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    line-height: 1.16;
+    margin-bottom: 50px;
+  }
 }
 
 .footer-mailing__title {

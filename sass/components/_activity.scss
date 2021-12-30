@@ -35,6 +35,10 @@
       color: var(--primary-white-tx-bg-color);
       background-color: rgba(47, 48, 58, 0.8);
       }
+
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  display: none;
+}
 }
 
  
