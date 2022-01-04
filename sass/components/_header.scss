@@ -12,11 +12,15 @@
     }
 }
 
-
 .site-nav {
-  display: flex;
+  // display: flex;
+  display: none;
   list-style: none;
   transition: color var(--timing-duration) var(--timing-function);
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 
     & &__item:not(:last-child) {
       margin-right: 50px;
@@ -44,22 +48,49 @@
 }
 
 .auth-nav {
-  display: flex;
+  // display: flex;
+  display: none;
   margin-left: auto;
   list-style: none;
   transition: color var(--timing-duration) var(--timing-function);
+  
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 
     & &__item:not(:last-child) {
-    margin-right: 50px;
+    // margin-right: 50px;
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      margin-bottom: 10px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-right: 50px;
+    }
     }
 
     &__link {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    // padding-top: 32px;
+    // padding-bottom: 32px;
     display: flex;
     align-items: center;
     color: var(--second-text-color);
     font-size: 14px;
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      font-size: 12px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
     }
 
     &__link:hover {
@@ -67,13 +98,33 @@
     }
 
     &__icon-mail {
-    margin-right: 10px;
+    // margin-right: 10px;
     fill: currentColor;
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      margin-right: 8px;
+      width: 14px;
+      height: 10px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-right: 10px;
+    }
     }
 
     &__icon-phone {
-    margin-right: 10px;
+    // margin-right: 10px;
     fill: currentColor;
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      margin-right: 8px;
+      width: 10px;
+      height: 14px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-right: 10px;
+    }
     }
 }
 
@@ -100,3 +151,7 @@
   list-style: none;
   transition: color var(--timing-duration) var(--timing-function);
 }
+
+
+
+
