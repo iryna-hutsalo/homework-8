@@ -1085,8 +1085,6 @@ img {
 }
 
 .modal {
-  width: 528px;
-  min-height: 581px;
   background-color: var(--primary-white-tx-bg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -1095,6 +1093,20 @@ img {
   left: 50%;
   transform: scale(1) translate(-50%, -50%);
   transition: transform 250ms;
+}
+
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+    min-height: 609px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    min-height: 581px;
+  }
 }
 
 .modal__close {
@@ -1227,14 +1239,26 @@ img {
 }
 
 .modal__check-text {
-  font-size: 14px;
-  line-height: 1.71;
   height: 15px;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 1199px) {
+  .modal__check-text {
+    font-size: 12px;
+    line-height: 1.17;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal__check-text {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .modal__check-text span {

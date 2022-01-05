@@ -116,14 +116,24 @@ margin-bottom: 12px;
 }
 
 &__check-text {
-  font-size: 14px;
-  line-height: 1.71;
+  // font-size: 14px;
+  // line-height: 1.71;
   height: 15px;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 1199px) {
+    font-size: 12px;
+    line-height: 1.17;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 &__check-text span {
