@@ -128,6 +128,21 @@
     }
 }
 
+.auth-nav__link.tel {
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  padding-bottom: 20px;
+  margin-top: 10px;
+  }
+}
+
+.auth-nav__link.mail {
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  padding-top: 20px;
+  }
+}
+
 .site-nav__link:hover,
 .site-nav__link:focus,
 .auth-nav__link:hover,

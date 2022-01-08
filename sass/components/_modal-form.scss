@@ -1,6 +1,10 @@
 .modal {
   padding: 40px;
 
+  @media screen and (max-width: 479px) {
+    width: 98%;
+  }
+
   &__form-field{
  margin-bottom: 10px;
 }
@@ -121,9 +125,17 @@ margin-bottom: 12px;
   height: 15px;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
-  display: flex;
+  // display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 479px) {
+    display: inline-block;
+  }
+
+  @media screen and (min-width: 480px) {
+    display: flex;
+  }
 
   @media screen and (max-width: 1199px) {
     font-size: 12px;
@@ -142,10 +154,17 @@ margin-bottom: 12px;
   border: 2px solid var(--primary-text-color);
   margin-right: 8px;
   border-radius: 2px;
-  display: flex;
+  // display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+
+  @media screen and (max-width: 479px) {
+    display: inline-flex;
+  }
+  @media screen and (min-width: 480px) {
+    display: flex;
+  }
 }
 
 &__check-text span:hover,

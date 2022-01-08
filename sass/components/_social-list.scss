@@ -40,6 +40,10 @@
   .footer-social {
   // margin-left: 70px;
 
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+  }
+
   &__title {
   font-weight: 700;
   font-size: 14px;
@@ -54,21 +58,12 @@
     justify-content: center;
     text-align: center;
   }
-
-  @media screen and (min-width: 1200px) {
-    margin-left: 70px;
-  }
 }
 
 &__list {
   display: flex;
   list-style: none;
   justify-content: center;
-  margin-bottom: 60px;
-  
-  @media screen and (min-width: 1200px) {
-    margin-left: 70px;
-  }
 }
 
 &__item {
