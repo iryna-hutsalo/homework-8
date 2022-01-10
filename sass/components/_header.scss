@@ -66,10 +66,6 @@
     & &__item:not(:last-child) {
     // margin-right: 50px;
 
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
-      margin-bottom: 10px;
-    }
-
     @media screen and (min-width: 1200px) {
       margin-right: 50px;
     }
@@ -132,7 +128,6 @@
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
   padding-bottom: 20px;
-  margin-top: 10px;
   }
 }
 
@@ -141,6 +136,12 @@
   @media screen and (min-width: 768px) and (max-width: 1199px) {
   padding-top: 20px;
   }
+}
+
+.auth-nav__item.tel {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+margin-top: 10px;
+}
 }
 
 .site-nav__link:hover,

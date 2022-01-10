@@ -3,12 +3,12 @@
   // padding-bottom: 94px;
   transition: color var(--timing-duration) var(--timing-function), background-color var(--timing-duration) var(--timing-function), box-shadow var(--timing-duration) var(--timing-function);
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1199px) {
     padding-top: 60px;
-  padding-bottom: 60px;
+    padding-bottom: 60px;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
    padding-top: 94px;
   padding-bottom: 94px;
   }
